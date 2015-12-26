@@ -1,0 +1,33 @@
+body{
+    background: #0C0C0C;   
+}
+h1 {
+    text-align: center;
+    color: darkgrey;
+}
+#slider{
+    width: 905px; 
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+}
+.items {
+    width: 225px;
+    position: relative;
+    display: block;
+    border: 2px dashed #a69eb0;
+    float: left;
+    transition: all 0.8s;
+        -webkit-transition: all 0.8s;
+        -moz-transition: all 0.8s;
+}
+.images:hover li {
+    width: 50px;
+}
+.images li:hover {
+    width: 750px;   
+}
+.images {
+    width: 1000px;
+}
+
